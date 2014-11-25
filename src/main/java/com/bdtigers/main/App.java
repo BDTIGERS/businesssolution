@@ -1,5 +1,6 @@
 package com.bdtigers.main;
 
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -15,5 +16,7 @@ public class App {
                 obj.setAddress("easfjhsdkfhdh");
                 obj.printHello();
                 /// this is wasir
+                
+                System.out.println("wasir");
 	}
 }
